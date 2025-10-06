@@ -1,89 +1,133 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio - Henrique dos Santos Reis Silva</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="responsivo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Henrique Reis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>
+        <h1>Henrique dos Santos Reis Silva</h1>
+        <img src="imagens/trabalho.png" alt="Foto de Henrique">
+        <p>Sou Henrique dos Santos Reis Silva, estudante de Ciência da Computação no Centro Universitário Newton Paiva.
+            Tenho interesse em oportunidades de estágio na área de Tecnologia da Informação, onde possa aplicar meus
+            conhecimentos
+            em programação, banco de dados e ferramentas de desenvolvimento para adquirir experiência prática e crescer
+            profissionalmente.</p>
+    </header>
 
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#servicos">Serviços</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <img src="assets/html.png" alt="HTML Icon" class="skill-icon">
+                <span>HTML5</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
 
-  <section id="hero">
-    <h1>Henrique dos Santos Reis Silva</h1>
-    <p>Estudante de Ciência da Computação em busca de estágio em TI</p>
-    <a href="#contato">Entre em contato</a>
-  </section>
+            <div class="skill">
+                <img src="assets/css.png" alt="CSS Icon" class="skill-icon">
+                <span>CSS3</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 67%;"></div>
+                </div>
+            </div>
 
-  <section id="sobre">
-    <h2>Sobre</h2>
-    <div>
-      <img src="imagens1/trabalho.jpg" alt="Minha-foto" width="150">
-      <p>
-        Tenho 20 anos, moro em Belo Horizonte/MG e curso Ciência da Computação no 
-        Centro Universitário Newton Paiva (2024–2027). Busco oportunidade de estágio em TI para 
-        desenvolver minhas habilidades práticas e crescer profissionalmente.
-      </p>
+            <div class="skill">
+                <img src="assets/java.png" alt="Java Icon" class="skill-icon">
+                <span>Java</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 72%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <img src="assets/javascript.png" alt="JavaScript Icon" class="skill-icon">
+                <span>JavaScript</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <img src="assets/python.png" alt="Python Icon" class="skill-icon">
+                <span>Python</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 45%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <img src="assets/mysql.png" alt="MySQL Icon" class="skill-icon">
+                <span>MySQL</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <img src="assets/office.png" alt="Pacote Office Icon" class="skill-icon">
+                <span>Pacote Office</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 72%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+  <h2>Projetos</h2>
+  <div class="projetos-container">
+
+    <div class="projeto">
+      <img src="assets/meu-portfolio-preview.jpg" alt="Imagem do portfólio" class="projeto-imagem">
+      
+      <div class="projeto-info">
+        <h3>Meu Portfólio Pessoal</h3>
+        <p>
+          Este site foi desenvolvido para apresentar minhas habilidades, formação e formas de contato.
+          É um projeto em constante atualização, onde aplico boas práticas de HTML, CSS e JavaScript.
+        </p>
+        <a href="https://github.com/Henriquesrs/portifolio" target="_blank" class="projeto-link">
+          &#x1F517 Ver no GitHub
+        </a>
+      </div>
     </div>
-  </section>
 
-  <section id="servicos">
-    <h2>Serviços</h2>
-    <ul>
-      <li>Desenvolvimento em Python e Java</li>
-      <li>Banco de Dados MySQL</li>
-      <li>Automação de processos</li>
-      <li>Pacote Office intermediário (Excel, Word, PowerPoint)</li>
-    </ul>
-  </section>
+  </div>
+</section>
 
-  <section id="projetos">
-    <h2>Projetos</h2>
-    <p>Projeto acadêmico em grupo (6 a 8 integrantes) realizado em cada período do curso de Ciência da Computação. 
-      O objetivo é desenvolver soluções baseadas nos <strong>Objetivos de Desenvolvimento Sustentável (ODS)</strong> da ONU, 
-      aplicando conhecimentos práticos de tecnologia, inovação e trabalho em equipe.</p>
-    <a href="https://github.com/Henriquesrs/portifolio" target="_blank" rel="external"><img src="imagens1/icone-github.png" alt="icone-github"> GitHub</a>
-  </section>
+    <section id="contato">
+        <h2>Contato</h2>
 
-  <section id="habilidades">
-    <h2>Habilidades</h2>
-    <h3>Hard Skills</h3>
-    <ul>
-      <li>Python, Java</li>
-      <li>MySQL</li>
-      <li>VS Code, IntelliJ</li>
-      <li>Kanban</li>
-    </ul>
-    <h3>Soft Skills</h3>
-    <ul>
-      <li>Pró-atividade</li>
-      <li>Organização</li>
-      <li>Boa comunicação</li>
-    </ul>
-  </section>
+        <div class="info-contato">
+            <p><img src="imagens/icone-gmail.png" alt="Ícone Gmail" class="icon">
+                Email: <a href="mailto:henrique.reis.contato01@gmail.com">henrique.reis.contato01@gmail.com</a></p>
+            <p><img src="imagens/icone-whatsapp.png" alt="Ícone WhatsApp" class="icon">
+                Telefone WhatsApp: <a href="https://wa.me/5531986713822" target="_blank">(31) 98671-3822</a></p>
+            <p><img src="imagens/icone-linkedin.png" alt="Ícone LinkedIn" class="icon">
+                LinkedIn: <a href="https://www.linkedin.com/in/henrique-srs/"
+                    target="_blank">linkedin.com/in/henrique-srs</a></p>
+        </div>
 
-  <section id="contato">
-    <h2>Contato</h2>
-      <p><img src="imagens1/icone-gmail.png" alt="icone-gmail"> Email: <a href="mailto:henrique.reis.contato01@gmail.com">henrique.reis.contato01@gmail.com</a></p>
-      <p><img src="imagens1/icone-whatsapp.png" alt="icone-whatsapp"> Telefone whatsapp: (31) 98671-3822</p>
-      <p><img src="imagens1/icone-linkedin.png" alt="icone-linkedin"> LinkedIn: <a href="https://www.linkedin.com/in/henrique-srs/" target="_blank" rel="external">linkedin.com/in/henrique-srs</a></p>
-  </section>
+        <form id="formContato">
+            <input type="text" name="name" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="message" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="statusEnvio"></p>
+    </section>
 
-  <footer>
-    <p>© 2025 Henrique dos Santos Reis Silva - Todos os direitos reservados.</p>
-  </footer>
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="email.js"></script>
 </body>
+
 </html>

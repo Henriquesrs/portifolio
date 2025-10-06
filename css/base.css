@@ -1,0 +1,35 @@
+body {
+    background-color: #1D1D1D;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #2563eb;
+    transition: 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#statusEnvio {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
