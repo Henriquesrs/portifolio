@@ -1,13 +1,18 @@
+:root {
+    --bg-principal: #1D1D1D;
+    --bg-secundario: #2E2E2E;
+    --cor-azul: #2563eb;
+    --texto-padrao: #ffffff;
+}
+
 body {
-    background-color: #1D1D1D;
-    color: white;
+    background-color: var(--bg-principal);
+    color: var(--texto-padrao);
     font-family: 'Roboto', sans-serif;
 }
 
-h1,
-h2,
-h3 {
-    color: white;
+h1, h2, h3 {
+    color: var(--texto-padrao);
 }
 
 h1 {
@@ -20,8 +25,12 @@ h1 {
 }
 
 a {
-    color: #2563eb;
+    color: var(--cor-azul);
     transition: 0.3s;
+}
+
+p {
+    text-align: justify;
 }
 
 a:hover {

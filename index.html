@@ -11,113 +11,120 @@
 </head>
 
 <body>
-    <header>
+    <nav class="menu">
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="menu-list" id="menuList">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato" onclick="mostrarFormulario()">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header id="sobre">
         <h1>Henrique dos Santos Reis Silva</h1>
-        <img src="imagens/trabalho.png" alt="Foto de Henrique">
-        <p>Sou Henrique dos Santos Reis Silva, estudante de Ciência da Computação no Centro Universitário Newton Paiva.
+        <img src="imagens/imagens_diversas/trabalho.png" alt="Foto de Henrique" class="foto-principal">
+        <p >Sou Henrique dos Santos Reis Silva, estudante de Ciência da Computação no Centro Universitário Newton Paiva.
             Tenho interesse em oportunidades de estágio na área de Tecnologia da Informação, onde possa aplicar meus
-            conhecimentos
-            em programação, banco de dados e ferramentas de desenvolvimento para adquirir experiência prática e crescer
-            profissionalmente.</p>
+            conhecimentos em programação, banco de dados e ferramentas de desenvolvimento para adquirir experiência
+            prática e crescer profissionalmente.</p>
     </header>
 
     <section id="habilidades">
         <h2>Habilidades</h2>
         <div class="skills-container">
             <div class="skill">
-                <img src="assets/html.png" alt="HTML Icon" class="skill-icon">
+                <img src="imagens/imagens_habilidades/iconi_html.png" alt="HTML Icon" class="skill-icon">
                 <span>HTML5</span>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 70%;"></div>
+                    <div class="progress" style="width:70%;"></div>
                 </div>
             </div>
 
             <div class="skill">
-                <img src="assets/css.png" alt="CSS Icon" class="skill-icon">
+                <img src="imagens/imagens_habilidades/iconi_css3.png" alt="CSS Icon" class="skill-icon">
                 <span>CSS3</span>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 67%;"></div>
+                    <div class="progress" style="width:67%;"></div>
                 </div>
             </div>
 
             <div class="skill">
-                <img src="assets/java.png" alt="Java Icon" class="skill-icon">
+                <img src="imagens/imagens_habilidades/icone_java.png" alt="Java Icon" class="skill-icon">
                 <span>Java</span>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 72%;"></div>
+                    <div class="progress" style="width:53%;"></div>
                 </div>
             </div>
 
             <div class="skill">
-                <img src="assets/javascript.png" alt="JavaScript Icon" class="skill-icon">
+                <img src="imagens/imagens_habilidades/icone_JavaScript.png" alt="JavaScript Icon" class="skill-icon">
                 <span>JavaScript</span>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 60%;"></div>
+                    <div class="progress" style="width:50%;"></div>
                 </div>
             </div>
 
             <div class="skill">
-                <img src="assets/python.png" alt="Python Icon" class="skill-icon">
+                <img src="imagens/imagens_habilidades/icone_python.png" alt="Python Icon" class="skill-icon">
                 <span>Python</span>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 45%;"></div>
+                    <div class="progress" style="width:33%;"></div>
                 </div>
             </div>
 
             <div class="skill">
-                <img src="assets/mysql.png" alt="MySQL Icon" class="skill-icon">
+                <img src="imagens/imagens_habilidades/icone_mysql.png" alt="MySQL Icon" class="skill-icon">
                 <span>MySQL</span>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 70%;"></div>
+                    <div class="progress" style="width:63%;"></div>
                 </div>
             </div>
 
             <div class="skill">
-                <img src="assets/office.png" alt="Pacote Office Icon" class="skill-icon">
+                <img src="imagens/imagens_habilidades/iconi_office.png" alt="Pacote Office Icon" class="skill-icon">
                 <span>Pacote Office</span>
                 <div class="progress-bar">
-                    <div class="progress" style="width: 72%;"></div>
+                    <div class="progress" style="width:65%;"></div>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="projetos">
-  <h2>Projetos</h2>
-  <div class="projetos-container">
-
-    <div class="projeto">
-      <img src="assets/meu-portfolio-preview.jpg" alt="Imagem do portfólio" class="projeto-imagem">
-      
-      <div class="projeto-info">
-        <h3>Meu Portfólio Pessoal</h3>
-        <p>
-          Este site foi desenvolvido para apresentar minhas habilidades, formação e formas de contato.
-          É um projeto em constante atualização, onde aplico boas práticas de HTML, CSS e JavaScript.
-        </p>
-        <a href="https://github.com/Henriquesrs/portifolio" target="_blank" class="projeto-link">
-          &#x1F517 Ver no GitHub
-        </a>
-      </div>
-    </div>
-
-  </div>
-</section>
+        <h2>Projetos</h2>
+        <div class="projetos-container">
+            <div class="projeto">
+                <img src="imagens/imagens_diversas/imagem_ilustrativa.jpeg" alt="Imagem do portfólio" class="projeto-imagem">
+                <div class="projeto-info">
+                    <h3>Meu Portfólio Pessoal</h3>
+                    <p>Este site foi desenvolvido para apresentar minhas habilidades, formação e formas de contato. É um
+                        projeto
+                        em constante atualização, onde aplico boas práticas de HTML, CSS e JavaScript.</p>
+                    <a href="https://github.com/Henriquesrs/portifolio" target="_blank" class="projeto-link">&#x1F517
+                        Ver no GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="contato">
         <h2>Contato</h2>
-
         <div class="info-contato">
-            <p><img src="imagens/icone-gmail.png" alt="Ícone Gmail" class="icon">
+            <p><img src="imagens/imagens_diversas/icone-gmail.png" alt="Ícone Gmail" class="icon">
                 Email: <a href="mailto:henrique.reis.contato01@gmail.com">henrique.reis.contato01@gmail.com</a></p>
-            <p><img src="imagens/icone-whatsapp.png" alt="Ícone WhatsApp" class="icon">
+            <p><img src="imagens/imagens_diversas/icone-whatsapp.png" alt="Ícone WhatsApp" class="icon">
                 Telefone WhatsApp: <a href="https://wa.me/5531986713822" target="_blank">(31) 98671-3822</a></p>
-            <p><img src="imagens/icone-linkedin.png" alt="Ícone LinkedIn" class="icon">
+            <p><img src="imagens/imagens_diversas/icone-linkedin.png" alt="Ícone LinkedIn" class="icon">
                 LinkedIn: <a href="https://www.linkedin.com/in/henrique-srs/"
                     target="_blank">linkedin.com/in/henrique-srs</a></p>
         </div>
 
-        <form id="formContato">
+        <button onclick="mostrarFormulario()" class="botao-formulario">
+            Clique aqui para enviar um email para contato
+        </button>
+
+        <form id="formContato" style="display: none;">
             <input type="text" name="name" placeholder="Seu nome" required>
             <input type="email" name="email" placeholder="Seu e-mail" required>
             <textarea name="message" placeholder="Sua mensagem" required></textarea>

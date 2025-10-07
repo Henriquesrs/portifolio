@@ -1,0 +1,47 @@
+.menu {
+    background-color: var(--bg-secundario);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-toggle {
+    font-size: 28px;
+    cursor: pointer;
+    color: var(--texto-padrao);
+    user-select: none;
+}
+
+.menu-list {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--bg-secundario);
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+.menu-list li a {
+    color: var(--texto-padrao);
+    font-weight: bold;
+}
+
+.botao-formulario {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--cor-azul);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 56px;
+    cursor: pointer;
+}
+
+.botao-formulario:hover {
+    background-color: #1a4fcc;
+}

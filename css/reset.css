@@ -16,7 +16,6 @@ ol {
 
 a {
     text-decoration: none;
-    color: inherit;
 }
 
 button,
@@ -24,4 +23,5 @@ input,
 textarea {
     font-family: inherit;
     font-size: inherit;
+    border: none;
 }

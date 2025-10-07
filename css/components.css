@@ -7,23 +7,22 @@ form {
 input,
 textarea {
     padding: 10px;
-    border: none;
     border-radius: 5px;
-    background-color: #1C1C1C;
-    color: white;
+    background-color: var(--bg-principal);
+    color: var(--texto-padrao);
 }
 
 button {
-    background-color: #2E2E2E;
-    color: white;
+    background-color: var(--bg-secundario);
+    color: var(--texto-padrao);
     padding: 10px;
-    border: none;
+    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #1C1C1C;
+    background-color: var(--bg-principal);
 }
 
 .icon {
@@ -54,13 +53,13 @@ button:hover {
 
 .progress {
     height: 100%;
-    background-color: #2563eb;
+    background-color: var(--cor-azul);
     border-radius: 5px;
     transition: width 1s ease;
 }
 
 .info-contato a {
-    color: #2563eb;
+    color: var(--cor-azul);
     text-decoration: none;
 }
 
